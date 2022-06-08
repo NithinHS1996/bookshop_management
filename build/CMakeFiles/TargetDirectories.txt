@@ -1,0 +1,5 @@
+/home/nithin/Everything/projects/bookshop_management/build/CMakeFiles/bookStore.dir
+/home/nithin/Everything/projects/bookshop_management/build/CMakeFiles/testbook.dir
+/home/nithin/Everything/projects/bookshop_management/build/CMakeFiles/testsupplier.dir
+/home/nithin/Everything/projects/bookshop_management/build/CMakeFiles/edit_cache.dir
+/home/nithin/Everything/projects/bookshop_management/build/CMakeFiles/rebuild_cache.dir

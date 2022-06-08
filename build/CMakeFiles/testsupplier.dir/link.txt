@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testsupplier.dir/test/testSupplier.cpp.o CMakeFiles/testsupplier.dir/src/supplier.cpp.o CMakeFiles/testsupplier.dir/src/suppliers.cpp.o -o testsupplier 

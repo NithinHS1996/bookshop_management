@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bookStore.dir/src/main.cpp.o CMakeFiles/bookStore.dir/src/book.cpp.o CMakeFiles/bookStore.dir/src/books.cpp.o CMakeFiles/bookStore.dir/src/validateBook.cpp.o CMakeFiles/bookStore.dir/src/supplier.cpp.o CMakeFiles/bookStore.dir/src/suppliers.cpp.o -o bookStore 
