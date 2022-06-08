@@ -15,7 +15,7 @@ message("Building done of BookStore binary done")
 
 #Test book binary
 #---------------------------------------------------------------------
-add_executable(testbook test/testBook.cpp src/book.cpp src/books.cpp src/validateBook.cpp )
+add_executable(testbook test/testBook.cpp src/book.cpp src/books.cpp src/validateBook.cpp src/filterBook.cpp )
 
 target_include_directories(testbook PUBLIC inc/)
 

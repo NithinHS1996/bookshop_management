@@ -7,15 +7,10 @@ namespace BookStore
     {
     private:
         std::vector<BookStore::Book> books;
-        void display(std::vector<Book> filteredBooks);
 
     public:
         bool updateBooks(BookStore::Book book);
         bool deleteBooks(BookStore::Book book);
-        bool filterByGenre();
-        bool filterByAuthor();
-        bool filterByPublishDate();
-        bool filterByPrice();
-        bool filterByTitle();
+        std::vector<BookStore::Book> getBooks();
     };
 };

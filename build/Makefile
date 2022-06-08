@@ -209,6 +209,30 @@ src/books.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbook.dir/build.make CMakeFiles/testbook.dir/src/books.cpp.s
 .PHONY : src/books.cpp.s
 
+src/filterBook.o: src/filterBook.cpp.o
+.PHONY : src/filterBook.o
+
+# target to build an object file
+src/filterBook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbook.dir/build.make CMakeFiles/testbook.dir/src/filterBook.cpp.o
+.PHONY : src/filterBook.cpp.o
+
+src/filterBook.i: src/filterBook.cpp.i
+.PHONY : src/filterBook.i
+
+# target to preprocess a source file
+src/filterBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbook.dir/build.make CMakeFiles/testbook.dir/src/filterBook.cpp.i
+.PHONY : src/filterBook.cpp.i
+
+src/filterBook.s: src/filterBook.cpp.s
+.PHONY : src/filterBook.s
+
+# target to generate assembly for a file
+src/filterBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbook.dir/build.make CMakeFiles/testbook.dir/src/filterBook.cpp.s
+.PHONY : src/filterBook.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -379,6 +403,9 @@ help:
 	@echo "... src/books.o"
 	@echo "... src/books.i"
 	@echo "... src/books.s"
+	@echo "... src/filterBook.o"
+	@echo "... src/filterBook.i"
+	@echo "... src/filterBook.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
